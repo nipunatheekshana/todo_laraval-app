@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(120deg,#487eb0,#fbc531);
+  min-height: 100vh;
+}
+
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.txtb{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+
+}
+.txtb1{
+  width: 10%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  
+}
+
+h3{
+  margin: 10px 0;
+}
+
+
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.task button{
+  float: right;
+  margin-left: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  
+  
+}
+
+.comp .task{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+}
+.comp .task1{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+}
+
+.task{
+  width: 89.2%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+  float: right;
+}
+
+.task1{
+  float: left;
+  width: 10%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+
+}
+.hide{
+  opacity: 0;
+}
+.check
+{float: left;}
+.check1
+{float: right;}
+
+
